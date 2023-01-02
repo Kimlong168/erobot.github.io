@@ -2,6 +2,8 @@ var sponsorHiddenButton=document.querySelectorAll(".right-side-sponsor-hidden-bu
 var sponsorHiddenDropdown=document.querySelectorAll(".right-side-sponsor-hidden-dropdown");
 var rightSideTitleIcon=document.querySelector("#rightSideTitleIcon");
 var rightSideTitleDropdown=document.querySelector("#rightSideTitleDropdown");
+var firendRequestButton=document.querySelectorAll(".right-side-friend-request-button");
+var firendRequestContainer= document.querySelector(".right-side-friend-request-profile");
 var check=0,check2=0;
 
 
@@ -38,4 +40,18 @@ rightSideTitleIcon.addEventListener('click',()=>{
     rightSideTitleDropdown.style.display='';
     check3=0;
   }
-})
+});
+
+// // friend request button
+// var check4=0;
+
+//   firendRequestButton[0].addEventListener('click',()=>{
+//       firendRequestContainer.style.backgroundColor="";
+//   });
+  
+//   firendRequestContainer.addEventListener('mouseover',()=>{
+//     firendRequestContainer.style.backgroundColor="red";
+//   });
+
+ 
+
