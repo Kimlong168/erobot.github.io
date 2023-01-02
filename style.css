@@ -11,6 +11,9 @@
 :root{
   background-color:rgb(240,242,245);
 }
+aside{
+  padding-bottom: 80px;
+}
 /*-------------------------------- header container */
 .header-container {
   display: flex;
