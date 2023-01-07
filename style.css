@@ -10,6 +10,7 @@
 
 :root{
   background-color:rgb(240,242,245);
+  margin-top: 65px;
 }
 aside{
   padding-bottom: 80px;
@@ -23,7 +24,7 @@ aside{
   background-color: rgb(255, 255, 255);
   box-shadow: 0 0 5px rgb(180, 178, 178);
   padding: 3px 15px 0px;
-  position:sticky;
+  position:fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -528,6 +529,9 @@ aside{
   height: 40px;
   border-radius: 50%;
 }
+.middle-user-post-top-left-profile-image img{
+  outline: 1px solid rgba(161, 158, 158, 0.39);
+}
 .middle-user-post-top-left-info{
   display: flex;
   flex-direction: column;
@@ -568,12 +572,14 @@ aside{
   background-color: rgb(189, 187, 187);
 }
 .middle-user-post-description{
-  padding: 10px 0;
+  padding: 15px 0;
+  line-height: 20px;
 }
 .middle-user-post-image,.middle-user-post-image img{
   width: 100%;
 }
 .middle-user-post-image img{
+  border-top: .5px solid rgb(240, 236, 236);
   border-bottom: .5px solid rgb(240, 236, 236);
 }
 /* bottom like cmt and share display number */
